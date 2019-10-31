@@ -7,10 +7,11 @@ body {
 
 div {
 	display: inline-block;
-    width: 50%;
-    float: left;
+    width: 100%;
+    height: 100vh;
     text-align: center;
-    margin-top: 60px;
+    margin: calc (100% - 1200px) / 2 );
+
 }
 
 p {
@@ -20,5 +21,4 @@ p {
     line-height: 30px;
     color: rgb(226, 223, 223);
     text-transform: uppercase;
-
 }
